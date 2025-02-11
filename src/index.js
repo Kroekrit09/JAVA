@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 // กำหนด port
-const PORT = process.env.PORT||3000;
+const PORT = process.env.PORT;
 
 // กำหนด route
 app.get("/", (req, res) => {
